@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <!--   <EditText
+           android:id="@+id/etEmail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:ems="10"
+           android:hint="@string/email"
+           android:inputType="textEmailAddress" />
+
+       <EditText
+           android:id="@+id/etPassword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:ems="10"
+           android:hint="@string/password"
+           android:inputType="textPassword" />
+
+       <Buttodroid:layout_width="match_parent"
+           androin
+           android:id="@+id/btnLogin"
+           and:layout_height="wrap_content"
+           android:layout_marginTop="10dp"
+           android:background="@color/colorAccent"
+           android:text="@string/login_label"
+           android:textColor="@android:color/white" />
+
+       <EditText
+           android:id="@+id/etPasword"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="5dp"
+           android:ems="10"
+           android:hint="@string/password"
+           android:inputType="textPassword" />-->
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="DANZA"
+        android:textColor="#00796B"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_height="200dp"
+        android:background="@drawable/danz"
+        android:textColor="@android:color/white"
+        android:layout_width="380dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/txView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Dr. Atanael Arroyo Garcia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1f07f5"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:layout_below="@+id/txtView"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/txtView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Responsable"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:layout_below="@+id/btnLogin"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Lugar: Edificio C, sala de conferencia 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/txView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00796B"
+        />
+
+</RelativeLayout>

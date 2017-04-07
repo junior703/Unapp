@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mackendy.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".NosotrosActivity"
+            android:label="@string/Stg_acercade"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".edificioActivity"
+            android:label="@string/Stg_edificios"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".TitualacionActivity"
+            android:label="@string/Stg_titulacion"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity android:name=".TsuActivity" />
+        <activity android:name=".IngActivity" />
+        <activity android:name=".LicActivity" />
+        <activity
+            android:name=".OfertasAcadem"
+            android:label="@string/Stg_ofertas"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".CalendActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ReglActivity"
+            android:label="@string/Stg_reglamento"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".SuggActivity"
+            android:label="@string/Stg_quejas"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".CalifActivity"
+            android:label="Calificacion"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="landscape" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".BecasActivity"
+            android:label="Becas"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".FloatEdif"
+            android:label="Edificio A"
+            android:parentActivityName=".edificioActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".TallActivity"
+            android:label="Talleres"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".EventActivity"
+            android:label="@string/Stg_eventos"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".EdifB"
+            android:label="Edificio B"
+            android:parentActivityName=".edificioActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".EdifC"
+            android:label="Edificio C"
+            android:parentActivityName=".edificioActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".EdifD"
+            android:label="Edificio D"
+            android:parentActivityName=".edificioActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity android:name=".Splash">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UNAPP</string>
+    <string name="action_settings">Parametres</string>
+    <string name="cabezanombre">UNAPP (Application Universitaire)</string>
+
+    <!-- menu-->
+    <string name="Stg_alumnos">Etudiant</string>
+    <string name="Stg_horarios">Horaire</string>
+    <string name="Stg_calendario">Calendrier</string>
+    <string name="Stg_calificaciones">Calification/Horaires</string>
+    <string name="Stg_talleres">Atelier</string>
+    <string name="Stg_titulacion">Titre</string>
+    <string name="Stg_reglamento">Reglements</string>
+
+    <string name="Stg_quejas">Suggetions</string>
+    <string name="Stg_contactos">Contact</string>
+    <string name="Stg_ofertas">Ofertas Academicas</string>
+    <string name="Stg_becas">Bourses</string>
+    <string name="Stg_edificios">Edifices</string>
+    <string name="Stg_acercade">A Propos</string>
+    <string name="Stg_eventos">Evenements</string>
+    <string name="Stg_nosotros">Nous</string>
+    <string name="copyright">Tous droits reservés</string>
+    <string name="desarrolladores">Developpeurs</string>
+    <string name="enviar">Envoyer</string>
+    <string name="horarios">Horaires</string>
+    <string name="ingenieria">Ingenierie</string>
+    <string name="licenciatura">Licence</string>
+    <string name="mensaje">Message</string>
+    <string name="reglamento">Reglement</string>
+    <string name="sujeto">sujet</string>
+    <string name="talleres">Ateliers</string>
+    <string name="estudiantes">Etudiants</string>
+    <string name="profesores">Professeurs</string>
+    <string name="quejas_de_suggerencias">Plaintes et Suggestions</string>
+    <string name="titulacion"></string>
+    <string name="vinculacion">Relation externe</string>
+    <string name="solicitud_estatal">Requete etatique</string>
+    <string name="solicitud_federal">Requete federal</string>
+    <string name="tsu_ing">Technique / Ingenierie</string>
+</resources>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">UNAPP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="cabezanombre">UNAPP (Aplicación Universitaria)</string>
+
+    <!-- menu-->
+    <string name="Stg_alumnos">Alumnos</string>
+    <string name="Stg_horarios">Horarios</string>
+    <string name="Stg_calendario">Calendarios</string>
+    <string name="Stg_calificaciones">Calificaciónes/Horarios</string>
+    <string name="Stg_talleres">Talleres</string>
+    <string name="Stg_titulacion">Titulación</string>
+    <string name="Stg_reglamento">Reglamento</string>
+
+    <string name="Stg_quejas">Quejas Y Sugerencias</string>
+    <string name="Stg_contactos">Contactos</string>
+    <string name="Stg_ofertas">Ofertas Academicas</string>
+    <string name="Stg_becas">Becas</string>
+    <string name="Stg_edificios">Edificios</string>
+    <string name="Stg_acercade">A cerca de</string>
+    <string name="Stg_eventos">Eventos</string>
+    <string name="Stg_nosotros">Nosotros</string>
+
+
+    <string name="licenciatura">Licenciatura</string>
+    <string name="ingenieria">Ingenieria</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="horarios">Horarios</string>
+    <string name="reglamento">Reglamento</string>
+    <string name="titulacion">Titulación</string>
+    <string name="talleres">Talleres</string>
+    <string name="vinculacion">Vinculación</string>
+    <string name="desarrolladores">Desarrolladores</string>
+    <string name="copyright">copyright</string>
+    <string name="quejas_de_suggerencias">Quejas y Sugerencias</string>
+    <string name="sujeto">Sujeto:</string>
+    <string name="mensaje">Mensaje</string>
+    <string name="enviar">Enviar</string>
+    <string name="solicitud_federal">Solicitud Federal</string>
+    <string name="solicitud_estatal">Solicitud Estatal</string>
+    <string name="tsu_ing">TSU/ING</string>
+    <string name="estudiantes">Estudiantes</string>
+    <string name="profesores">Profesores</string>
+
+
+    <string name="login">login</string>
+    <string name="email">mail</string>
+    <string name="password">pass</string>
+    <string name="login_label">login</string>
+    <string name="title_activity_float_edif_b">FloatEdifB</string>
+
+</resources>

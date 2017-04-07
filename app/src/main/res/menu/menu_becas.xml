@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/BecasAlum"
+        android:icon="@mipmap/estudiantes"
+        android:title="@string/estudiantes" />
+    <item
+        android:id="@+id/BecasProf"
+        android:icon="@mipmap/prof"
+        android:title="@string/profesores" />
+</menu>

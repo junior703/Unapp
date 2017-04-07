@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nosotros"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#b3dad7"
+    tools:context="com.example.mackendy.myapplication.NosotrosActivity">
+
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:background="@drawable/logoweb"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="@string/desarrolladores"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:textColor="#010f6c"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_margin="20dp"/>
+
+
+    <TextView
+        android:text="ING. Jean Junior Mackendy Anis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#010f6c"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/tetView2"
+        />
+    <TextView
+        android:text="1716210002@utec-tgo.edu.mx"
+        android:layout_width="wrap_content"
+        android:textColor="#f4081c"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:id="@+id/txtView2"
+
+        />
+
+        <TextView
+            android:text="ING. Raymond Simoly"
+            android:layout_width="wrap_content"
+            android:textColor="#010f6c"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/ttView2"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="1716210003@utec-tgo.edu.mx"
+            android:layout_width="wrap_content"
+            android:textColor="#f4081c"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:id="@+id/txView2"
+            />
+
+        <TextView
+            android:text="ING. Rose Landlordj Sejour"
+            android:layout_width="wrap_content"
+            android:textColor="#010f6c"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/tetiew2"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:text="1716210001@utec-tgo.edu.mx"
+            android:textColor="#f4081c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:id="@+id/ultimmo"
+            />
+
+    <TextView
+        android:text="Asesor"
+        android:layout_width="wrap_content"
+        android:textColor="#010f6c"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/teiew2"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:text="M.C. Salvador Hernández Mendoza"
+        android:textColor="#f4081c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:id="@+id/ultmmo"
+        />
+
+    <TextView
+        android:text="Desarrollar en la UTEC"
+        android:textColor="#256e06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15dp"
+        android:id="@+id/ultmo"
+        android:layout_marginTop="20dp"
+
+        />
+
+
+    <TextView
+            android:text="@string/copyright"
+            android:textColor="#050505"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_margin="10dp"
+            android:id="@+id/ltimmo"
+
+
+            />
+
+
+
+
+</LinearLayout>

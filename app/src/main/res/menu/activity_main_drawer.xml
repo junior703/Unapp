@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/caledarios"
+            android:icon="@mipmap/horarios"
+            android:title="@string/Stg_calendario" />
+        <item
+            android:id="@+id/calif"
+            android:icon="@mipmap/calif"
+            android:title="@string/Stg_calificaciones" />
+        <item
+            android:id="@+id/eventos"
+            android:icon="@mipmap/eventos"
+            android:title="@string/Stg_eventos" />
+        <item
+            android:id="@+id/ofetrtas"
+            android:icon="@mipmap/ofertas"
+            android:title="@string/Stg_ofertas" />
+        <item
+            android:id="@+id/edificios"
+            android:icon="@mipmap/edificios"
+            android:title="@string/Stg_edificios" />
+
+    </group>
+
+    <item android:title="@string/Stg_alumnos">
+        <menu>
+          <!--  <item
+                android:id="@+id/av_sharre"
+                android:icon="@mipmap/horarios"
+                android:title="@string/horarios" />-->
+            <item
+                android:id="@+id/reglamento"
+                android:icon="@mipmap/regle"
+                android:title="@string/reglamento" />
+            <item
+                android:id="@+id/titulacion"
+                android:icon="@mipmap/titulacion"
+                android:title="@string/titulacion" />
+            <item
+                android:id="@+id/taller"
+                android:icon="@mipmap/taller"
+                android:title="@string/talleres" />
+        </menu>
+    </item>
+
+    <item android:title="@string/vinculacion">
+        <menu>
+            <item
+                android:id="@+id/becas"
+                android:icon="@mipmap/becas"
+                android:title="@string/Stg_becas" />
+            <item
+                android:id="@+id/quejas"
+                android:icon="@mipmap/sugg"
+                android:title="@string/Stg_quejas" />
+        </menu>
+    </item>
+    <item android:title="@string/Stg_acercade">
+        <menu>
+
+            <item
+                android:id="@+id/nv_sharre"
+                android:icon="@mipmap/contact"
+                android:title="@string/Stg_contactos" />
+            <item
+                android:id="@+id/nosotros"
+                android:icon="@mipmap/acerca"
+                android:title="@string/Stg_nosotros"/>
+        </menu>
+    </item>
+
+
+</menu>

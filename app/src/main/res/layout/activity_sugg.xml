@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Stg_quejas"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_margin="15dp"
+                android:textColor="#22c709"
+                android:layout_gravity="center"
+                />
+
+            <EditText
+                android:layout_width="383dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:id="@+id/et_to"
+                android:text="anismackendy01@gmail.com"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/sujeto"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:id="@+id/et_sub"
+                android:layout_weight="1"
+                android:inputType="textPersonName"
+                android:maxLength="20"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:hint="@string/mensaje"
+                android:ems="10"
+                android:layout_margin="30dp"
+                android:id="@+id/et_text"
+                android:layout_weight="1"
+                android:maxLength="150"
+
+                />
+
+            <Button
+                android:text="@string/enviar"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_submit"
+                android:layout_weight="1"
+                android:background="#00796B"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
